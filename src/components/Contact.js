@@ -21,7 +21,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch(`${API_URL}/send-email`, {
+    fetch(`${API_URL}send-email`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
